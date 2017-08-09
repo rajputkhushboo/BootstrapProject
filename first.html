@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+
+</head>
+<body>
+	<!-- HEADER -->
+	<nav class="navbar navbar-fixed-top myheader">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+				<a href="#" class="navbar-brand mybrand" >WEATHER</a>
+			</div>
+		</div>
+	</nav>		
+	<!-- DROPDOWN MENU -->
+	<div class="collapse navbar-collapse" id="mynavbar">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">		
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">News Letter</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Article Topics</a></li>
+							<li role="separator" class="divider"></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Time Zones <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Time Zone Convertor</a></li>
+							<li><a href="#">Time Zone</a></li>
+							<li><a href="#">Time Zone Map</a></li>
+							<li role="separator" class="divider"></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Weather <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="second.html">Worldwide</a></li>
+							<li><a href="#">Local Weather</a></li>
+							<li><a href="#">2-week Forcast</a></li>
+							<li role="separator" class="divider"></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Calender <span class="glyphicon glyphicon-calendar"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Calendar Info</a></li>
+							<li><a href="#">Calendar 2017</a></li>
+							<li><a href="#">Calendar 2018</a></li>
+							<li role="separator" class="divider"></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+					</li>
+				</ul>
+
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+			</div>
+		</nav>
+	</div>
+
+
+	<!-- 3 section thumbnails -->
+	<div class="container-fluid">
+		<div class="row myrow">
+			<div class="col-md-4 mycol">
+				<div class="Caption well mycaption" style="background-color: #222">
+					<img src="img/img1.gif">
+					<h3>Current Time</h3>
+					<ul>
+						<li>wednesday</li>
+						<li>9 Aug 2017</li>
+						<li>Greater Noida,India</li>
+						<li><a href="#">Set home location</a><span class="glyphicon glyphicon-chevron-right"></span></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="col-md-4 mycol">   
+				<div class="Caption well mycaption" style="background-color: #222">
+					<img src="img/img2.gif">
+					<h3>Time Zones</h3>
+					<ul >
+						<li><a href="#">Time Announcer</a></li>
+						<li><a href="#">Meeting Planner</a></li>
+						<li><a href="#">Time Zone Abbrevations</a></li>
+						<li><a href="#">Set Time</a><span class="glyphicon glyphicon-chevron-right"></span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-4 mycol">
+				<div class="Caption well mycaption" style="background-color: #222">
+					<img src="img/img3.png">
+					<h3>Sunset/Sunrise</h3>
+					<ul>
+				    	<li>Sunrise : 
+				    	<span>5:45 AM</span>
+				    	</li>
+				    	<li>Sunset  : 
+				    	<span>7:10 AM</span>
+				    	</li>
+				    	<li>Duration: 
+				    	<span>13:30 hr</span>
+				    	</li>
+						<li><a href="#">Set Date</a><span class="glyphicon glyphicon-chevron-right"></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SLIDER -->
+	<div class="container">
+		<h1> TRENDING </h1>
+
+		<div id="myslide" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myslide" data-slide-to="0" class="active"></li>
+				<li data-target="#myslide" data-slide-to="1"></li>
+				<li data-target="#myslide" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="item active myitem">
+					<div class="carousel-caption">
+						<a href="https://weather.com/en-IN/india/news/news/yosemite-firefall-horsetail-falls-ind"><p>Firefall: Yosemite's Firey Phenomenon</p></a>
+					</div>
+					<img src="img/earth.jpg"  style="width:1140px; height: 500px;">
+				</div>
+
+				<div class="item myitem">
+					<div class="carousel-caption">
+					<a href="https://weather.com/en-IN/india/news/news/planets-discovered-gj411b-super-earth-alien-life-india"><p>Super-Earth' Discovered Among 60 New Planets That Could Support Life, Scientists Say</p></a>
+					</div>
+
+					<img src="img/earth1.jpg" style="width:1140px; height: 500px;" >
+				</div>
+
+				<div class="item myitem">
+					<div class="carousel-caption">
+						<a href="https://cryptoinsider.com/eco-crypto-list-coins-focused-environment/"><p>Eco-crypto: 8 coins focused primarily on the environment</p></a>
+					</div>
+					<img src="img/map.jpg"  style="width:1140px; height: 500px;">
+					
+				</div>
+
+				<a class="left carousel-control" href="#myslide" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">previous</span>
+				</a>
+
+				<a class="right carousel-control" href="#myslide" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 4-SECTIONS -->
+	<div class="container-fluid">
+		<div class="row myrow1">
+					<div class="col-md-3">
+					<div class="Caption well mycaption1" style="background-color: #222">
+						<img src="img/solar.jpg">
+						<!-- style width 70px -->
+						<h5>Solar eclipse 2017 : Will Seattle weather behave?</h5>
+						<p>Seattle has just gone the longest it ever has with no rain: 51 days. That could either seem like a sign of good weather to come, or a sign that we’re overdue for some bad weather. At this point, it’s hard to say.But we’ll update as the forecast gets closer.</p>
+					</div>
+					</div>
+					<div class="col-md-3"> 
+						<div class="Caption well mycaption1" style="background-color: #222">
+							<img src="img/rain.jpg">
+							<h5>Weather warnings as up to 80mm of rain expected in one day</h5>
+							<p>The Met Office are forecasting that the heavy rain is set to hit the South West.The weather warning reads:“A slowly southward moving weather system will give 15-30 mm of rain quite widely across the area,with perhaps as much as 60-80 mm in places through the whole day.</p>
+						</div>
+					</div>
+					<div class="col-md-3">   
+						<div class="Caption well mycaption1" style="background-color: #222">
+							<img src="img/coast.jpg">
+							<h5>WA weather:More rain, hail on the way as cold fronts hover off coast</h5>
+							<p>There's no end in sight to the wet weather for Western Australia with more cold fronts expected to bring heavy rain and possible hail over the next few days.A front dumped 47.2 millimetres of rain on Perth yesterday and overnight, with more rain and strong winds on the way.</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="Caption well mycaption1" style="background-color: #222">
+							<img src="img/climate.jpg">
+							<h5>Yes, You Can Blame Climate Change for Extreme Weather</h5>
+							<p>The report notes that every extreme weather event analyzed to date would be theoretically possible without climate change, even if many would be incredibly unlikely. That's not the case with the record high global temperature averages the world has experienced in recent years.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<!-- FOOTER -->
+
+	<div class="panel panel-default myfooter">
+		<div class="panel-body mypanel">
+			<footer>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+				<a href="#"><i class="fa fa-skype"></i></a>
+				<p>© 2017 The Weather Company, LLC<p>
+			</footer>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

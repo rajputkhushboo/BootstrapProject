@@ -1,0 +1,165 @@
+.myheader{
+	background-color: #007b7a;
+}
+.myheader a
+{
+	font-size: 40px;
+}
+
+.myspan1{
+	font-size: 20px;
+	padding-top: 40px;
+}
+.mybrand
+{
+	color: lavender;
+	padding-bottom: 50px;
+	margin-top: 40px;
+	font-family: Times new roman;
+}
+#mynavbar nav
+{
+	margin-top: 90px;
+}
+.myrow1
+{
+	margin-top: 180px;
+}
+.mycol
+{
+	margin-top:12%;
+}
+.mycaption
+{
+	padding: 30px;
+	background-color:#606060;
+	color:white;	
+}
+.mycaption img
+{
+	width: 100px;
+	margin-left: 170px;
+}
+.mycaption h3
+{
+	font-size: 30px;
+	 text-align: center;
+}
+.mycaption ul li a
+{
+	list-style-type: none;
+	text-align: left;
+	color: white;
+}
+.mycaption li
+{
+list-style: none;
+}
+#myslide
+{
+	margin-top: 20px;
+}
+
+.myitem p
+{
+font-size: 30px;
+color: white;
+text-decoration: none;
+}
+.myrow1
+{
+	margin-top: 1%;
+}
+.mycaption1
+{
+	padding: 30px;
+	background-color:#606060;
+	color:white;
+	margin-top: 1%;
+}
+.mycaption1 img
+{
+	width: 70%;
+	margin-left: 40px;
+}
+.mycaption1 h5
+{
+	font-size: 20px;
+	 text-align: center;
+}
+.mycaption1 p
+{
+	text-align: center;
+}
+.myfooter1
+{
+margin-top: 30px;
+}
+.mypanel
+{
+	background-color: #007b7a; 
+	padding: 10px;
+}
+.mypanel footer
+{
+	text-align: center;
+}
+.mypanel a
+{
+	color: lavender;
+	font-size: 20px
+	padding:15px;
+}
+.mypanel p
+{ 
+	color: lavender;
+}
+.mymedia
+{
+	margin-top: 150px;
+}
+.mymedia1 img
+{
+width: 250px;
+}
+.mymedia2 h1
+{
+font-family: times new roman;
+}
+.mymedia h3
+{
+	font-style: italic;
+	font-family: times new roman;
+}
+.mymedia h1
+{
+	
+	font-family: times new roman;
+}
+
+.mymedia p
+{
+	text-align: left;
+}
+
+.mymedia2
+{
+	margin-top: 30px;
+}
+
+.mypanel footer a i
+{
+margin-left: 20px;
+font-size: 20px;
+}
+.media-left
+{
+width: auto;
+}
+@media only screen and (max-width: 767px)
+{
+	.media
+	{
+		width: auto;
+	}
+}
